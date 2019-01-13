@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/a', 'ReviewsCommentsController@amazon');
-
 Route::post('reviews', 'ReviewsCommentsController@review');
