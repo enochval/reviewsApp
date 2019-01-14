@@ -590,9 +590,9 @@ class simple_html_dom
         $this->prepare($str, $lowercase);
         // strip out comments
         $this->remove_noise("'<!--(.*?)-->'is");
-        dd('it is here');
         // strip out <style> tags
         $this->remove_noise("'<\s*style[^>]*[^/]>(.*?)<\s*/\s*style\s*>'is");
+        dd('it is here');
         $this->remove_noise("'<\s*style\s*>(.*?)<\s*/\s*style\s*>'is");
         // strip out <script> tags
         $this->remove_noise("'<\s*script[^>]*[^/]>(.*?)<\s*/\s*script\s*>'is");
