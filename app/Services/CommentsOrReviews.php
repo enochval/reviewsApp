@@ -137,17 +137,10 @@ class CommentsOrReviews
 //                $date=format_date($date);
             }
             //text of the review
-            if ($reviewTextDiv = $reviewDiv->find('span[class=a-size-base review-text]')) {
-                $patterns = array();
-                $patterns[0] = '#<br\s*/?>#i';
-                $patterns[1] = '#<p\s*/?>#i';
-                $patterns[2] = '#<li\s*/?>#i';
-                $text = preg_replace($patterns, "\n", $reviewTextDiv[0]);
-                $reviewText = strip_tags($text);
-            }
+
             $reviews = [
                 'username' => $username,
-                'comment' => $reviewText,
+                //'comment' => $reviewText,
                 'starRating' => $rating,
                 'date' => $date,
                 'link' => null,
