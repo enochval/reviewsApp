@@ -44,11 +44,4 @@ class ReviewsCommentsController extends Controller
     {
         return view('welcome');
     }
-
-    public function amazon()
-    {
-        $asin = 'B00891PV0G';
-        $response = CommentsOrReviews::getAmazonReviews($asin);
-        return response()->json($response);
-    }
 }
