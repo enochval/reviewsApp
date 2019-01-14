@@ -93,9 +93,9 @@ class CommentsOrReviews
         $response = [];
 
         $html = new \simple_html_dom();
+        dd('it got here');
         $html->load_file('http://www.amazon.com/product-reviews/'.$asin);
 
-        dd('it got here');
 
         $totalPageNumber = $html->find('li[class=page-button] a');
         $length = sizeof($totalPageNumber);
