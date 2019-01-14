@@ -87,13 +87,15 @@ class CommentsOrReviews
 
     public function getAmazonReviews($asin)
     {
-        set_time_limit(300);
+//        set_time_limit(300);
         require(base_path('app/Services/simple_html_dom.php'));
 
         $response = [];
 
         $html = new \simple_html_dom();
         $html->load_file('http://www.amazon.com/product-reviews/'.$asin);
+
+        dd('it got here');
 
         $totalPageNumber = $html->find('li[class=page-button] a');
         $length = sizeof($totalPageNumber);
