@@ -1083,8 +1083,8 @@ class simple_html_dom
         // parsing
         while ($this->parse());
         // end
-        dd('it is here');
         $this->root->_[HDOM_INFO_END] = $this->cursor;
+        dd('it is here');
         $this->parse_charset();
 
         // make load function chainable
