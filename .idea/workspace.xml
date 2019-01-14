@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85abf40d-67de-4589-9abb-ac9c46ac3dd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CommentsOrReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CommentsOrReviews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/simple_html_dom.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/simple_html_dom.php" afterDir="false" />
-    </list>
+    <list default="true" id="85abf40d-67de-4589-9abb-ac9c46ac3dd7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewsCommentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -47,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Services/simple_html_dom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="1189" column="37" lean-forward="true" selection-start-line="1189" selection-start-column="37" selection-end-line="1189" selection-end-column="37" />
+            <state relative-caret-position="495">
+              <caret line="1385" column="36" selection-start-line="1385" selection-start-column="25" selection-end-line="1385" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -68,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -296,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547066713532</updated>
       <workItem from="1547066714912" duration="54563000" />
-      <workItem from="1547460248645" duration="4448000" />
+      <workItem from="1547460248645" duration="4759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59011000" />
+    <option name="totallyTimeSpent" value="59322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1680" height="1050" extended-state="6" />
@@ -487,15 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/simple_html_dom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="1189" column="37" lean-forward="true" selection-start-line="1189" selection-start-column="37" selection-end-line="1189" selection-end-column="37" />
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -508,11 +497,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewsCommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="297">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="1385" column="36" selection-start-line="1385" selection-start-column="25" selection-end-line="1385" selection-end-column="36" />
         </state>
       </provider>
     </entry>
