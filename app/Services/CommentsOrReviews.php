@@ -99,6 +99,8 @@ class CommentsOrReviews
         $length = sizeof($totalPageNumber);
         $totalPages = $length ? $totalPageNumber[$length-1]->plaintext : false;
 
+        dd($totalPages);
+
         if (!$totalPages || $totalPages <= 1) {
             $allReviewDiv = $html->find('div[id=cm_cr-review_list] div[class=a-section review]');
             $response = $this->processAmazonReviews($allReviewDiv);

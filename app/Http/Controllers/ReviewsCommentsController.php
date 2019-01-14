@@ -29,7 +29,6 @@ class ReviewsCommentsController extends Controller
             }
         } elseif(str_contains($url, 'amazon')) {
             $asin = str_before(str_after($url, 'dp/'), '/');
-            return response()->json($asin);
             try {
                 $reviews = CommentsOrReviews::getAmazonReviews($asin);
                 return response()->json($reviews);
