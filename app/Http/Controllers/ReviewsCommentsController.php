@@ -33,10 +33,6 @@ class ReviewsCommentsController extends Controller
                 $reviews = CommentsOrReviews::getAmazonReviews($asin);
                 return response()->json($reviews);
             } catch (\Exception $exception) {
-//                return response()->json([
-//                    $exception->getMessage(),
-//                    $exception->getTrace()
-//                ]);
                 return response()->json($exception->getMessage());
             }
         } else {
