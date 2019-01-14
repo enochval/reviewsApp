@@ -1083,7 +1083,7 @@ class simple_html_dom
         // parsing
         while ($this->parse());
         // end
-        $this->root->_[HDOM_INFO_END] = $this->cursor;
+//        $this->root->_[HDOM_INFO_END] = $this->cursor;
         dd('it is here');
         $this->parse_charset();
 
