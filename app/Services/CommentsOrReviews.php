@@ -88,7 +88,7 @@ class CommentsOrReviews
     public function getAmazonReviews($asin)
     {
 //        set_time_limit(300);
-        require(base_path('app/Services/simple_html_dom.php'));
+        include(base_path('app/Services/simple_html_dom.php'));
 
         $response = [];
 

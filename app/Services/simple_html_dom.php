@@ -1079,6 +1079,8 @@ class simple_html_dom
         // strip smarty scripts
         $this->remove_noise("'(\{\w)(.*?)(\})'s", true);
 
+        dd('it is here');
+
         // parsing
         while ($this->parse());
         // end
