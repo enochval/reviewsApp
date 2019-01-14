@@ -37,7 +37,7 @@ class ReviewsCommentsController extends Controller
 //                    $exception->getMessage(),
 //                    $exception->getTrace()
 //                ]);
-                return response()->json($exception->getTraceAsString());
+                return response()->json($exception->getMessage());
             }
         } else {
             return response()->json('Invalid URL');
