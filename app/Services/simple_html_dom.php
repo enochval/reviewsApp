@@ -592,8 +592,8 @@ class simple_html_dom
         $this->remove_noise("'<!--(.*?)-->'is");
         // strip out <style> tags
         $this->remove_noise("'<\s*style[^>]*[^/]>(.*?)<\s*/\s*style\s*>'is");
-        dd('it is here');
         $this->remove_noise("'<\s*style\s*>(.*?)<\s*/\s*style\s*>'is");
+        dd('it is here');
         // strip out <script> tags
         $this->remove_noise("'<\s*script[^>]*[^/]>(.*?)<\s*/\s*script\s*>'is");
         $this->remove_noise("'<\s*script\s*>(.*?)<\s*/\s*script\s*>'is");
